@@ -356,7 +356,7 @@ with project.setup_mlflow(managed_folder) as mlflow:
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: MARKDOWN
 # In this part:
-# - we find the run in the experiment that resulted in the best AUC;
+# - we find the run in the experiment that resulted in the best accuracy;
 # - we deploy the corresponding model as a  saved model in the Flow. When clicking on the last active version, you will have access to performance assets such as confusion matrix, lift charts etc.
 # 
 # This choice could be overriden by the user as it is possible to deploy any of the runs directly from the Experiment Tracking Section.
